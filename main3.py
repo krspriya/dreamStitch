@@ -69,7 +69,7 @@ def is_image_corrupted(filepath):
 
 # Function to generate images based on a prompt
 def generate_images(prompt):
-    U_cookie_api_key_value = '1qrzH2Ny4oXLJHwvjBjMbExX4dHBK1HW6YvNRc2cbLkZbkqkjbolasRo9o6AJNGuDO2E5Q1vRIjFcdNSdBrZ7IVA2MqxbYQqezL5u0l0g5HYsg8BcaaV_E_Fr-Uhs02qUl7ww_wFn9HU_-V9dKzsBuyCuz8s2LU99aGUQm80vZ6nSOnbC9TR97y_j9IuaQnWCcxykxrsnwSJlV7308-oTC09STBDkZV6nK1nItLIbpw8'
+    U_cookie_api_key_value = '################################################'
 
     # Update the prompt to specify no humans and focus on dress design
     command = f'python -m BingImageCreator --prompt "{prompt} - no humans, just the dress design, unique dress design, specific colors only" -U "{U_cookie_api_key_value}"'
